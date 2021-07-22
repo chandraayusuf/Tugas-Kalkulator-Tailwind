@@ -5,112 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/tailwind.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    
 </head>
 <body>
-    <div class="mx-auto overflow-hidden mt-10 shadow-lg mb-2 bg-purple-900 shadow-lg border rounded-lg lg:w-2/6 md:w-3/6 sm:w-4/6">
-        <div class="">
-          <div class="p-5 text-white text-center text-3xl bg-black">Calculator</div>
-          <div class="pt-16 p-5 pb-0 text-white text-right text-3xl bg-black"></div>
-          <div class="p-5 text-white text-right text-3xl bg-black">= <span class="text-orange-500">2100</span></div>
-          
-          
-     <div class="flex items-stretch bg-gray-600 h-24">
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-yellow-400 text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">C</button>
-        </div>
-      
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-yellow-400 text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-            </svg>
-          </button>
-        </div>
-       
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-yellow-400 text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">%</button>
-        </div>
-       
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-yellow-400 text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">÷</button>
-        </div>
-    </div>
-          
-    <div class="flex items-stretch bg-gray-600 h-24">
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">7</button>
-        </div>
-      
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">8</button>
-        </div>
-       
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">9</button>
-        </div>
-       
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-yellow-400 text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">×</button>
-        </div>
-    </div>
-          
-    <div class="flex items-stretch bg-gray-600 h-24">
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">4</button>
-        </div>
-      
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">5</button>
-        </div>
-       
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">6</button>
-        </div>
-       
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-yellow-400 text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">-</button>
-        </div>
-    </div>
-          
-    <div class="flex items-stretch bg-gray-600 h-24">
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">1</button>
-        </div>
-      
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">2</button>
-        </div>
-       
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">3</button>
-        </div>
-       
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-yellow-400 text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">+</button>
-        </div>
-    </div>
-          
-    
-    <div class="flex items-stretch bg-gray-600 h-24">
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none "></button>
-        </div>
-      
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">0</button>
-        </div>
-       
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">.</button>
-        </div>
-       
-        <div class="flex-1 px-2 py-2 justify-center flex items-center text-yellow-400 text-2xl font-semibold">
-          <button class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none ">=</button>
-        </div>
-    </div>
-          
-          
+     <input class="value" type="text" name="txt" readonly="">
+     <div class="mx-auto overflow-hidden mt-10 shadow-lg mb-2 bg-purple-900 shadow-lg border rounded-lg lg:w-2/6 md:w-3/6 sm:w-4/6">
+      <div class="">
+        <div class="p-5 text-white text-center text-3xl bg-black">Calculator</div>
+        <div class="pt-16 p-5 pb-0 text-white text-right text-3xl bg-black" id="displayBar">0</div>
+        <div class="p-5 text-white text-right text-3xl bg-black">
+          <span class="text-orange-500"></span></div>
+        
+        
+   <div class="flex items-stretch bg-gray-600 h-24">
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-yellow-400 text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="ac">C</div>
       </div>
+    
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-yellow-400 text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="divide">÷</div>
+      </div>
+     
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-yellow-400 text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="percentage">%</div>
+      </div>
+
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-yellow-400 text-2xl font-semibold">
+      </div>
+  </div>
+        
+  <div class="flex items-stretch bg-gray-600 h-24">
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="seven">7</div>
+      </div>
+    
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="eight">8</div>
+      </div>
+     
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="nine">9</div>
+      </div>
+     
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-yellow-400 text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="multiply">×</div>
+      </div>
+  </div>
+        
+  <div class="flex items-stretch bg-gray-600 h-24">
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="four">4</div>
+      </div>
+    
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="five">5</div>
+      </div>
+     
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="six">6</div>
+      </div>
+     
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-yellow-400 text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="minus">-</div>
+      </div>
+  </div>
+        
+  <div class="flex items-stretch bg-gray-600 h-24">
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="one">1</div>
+      </div>
+    
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="two">2</div>
+      </div>
+     
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="three">3</div>
+      </div>
+     
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-yellow-400 text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="plus">+</div>
+      </div>
+  </div>
+        
+  
+  <div class="flex items-stretch bg-gray-600 h-24">
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+      </div>
+
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="zero">0</div>
+      </div>
+     
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-white text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="decimal">.</div>
+      </div>
+     
+      <div class="flex-1 px-2 py-2 justify-center flex items-center text-yellow-400 text-2xl font-semibold">
+        <div class="rounded-full h-20 w-20 flex items-center bg-black justify-center shadow-lg border-2 border-black hover:border-2 hover:border-gray-500 focus:outline-none " id="equal">=</div>
+      </div>
+  </div>
+        
+        
     </div>
+  </div>
+
+   <script src="js/calc.js"></script>
+
 </body>
 </html>
